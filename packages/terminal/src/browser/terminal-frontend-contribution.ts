@@ -987,7 +987,7 @@ export class TerminalFrontendContribution implements FrontendApplicationContribu
         if (!terminalProfile) {
             profile = this.profileService.defaultProfile;
             if (!profile) {
-                throw new Error('There are not profiles registered');
+                throw new Error('There are no profiles registered');
             }
         }
 
